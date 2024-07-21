@@ -62,9 +62,12 @@ sd-1/main/trinart_stable_diffusion_v2:
    recommended: False
 sd-1/controlnet/canny:
    repo_id: lllyasviel/control_v11p_sd15_canny
-   recommended: false
+   recommended: true
+      default: true
 sd-1/controlnet/inpaint:
    repo_id: lllyasviel/control_v11p_sd15_inpaint
+   recommended: true
+      default: true
 sd-1/controlnet/mlsd:
    repo_id: lllyasviel/control_v11p_sd15_mlsd
 sd-1/controlnet/depth:
@@ -81,7 +84,8 @@ sd-1/controlnet/lineart_anime:
    repo_id: lllyasviel/control_v11p_sd15s2_lineart_anime
 sd-1/controlnet/openpose:
    repo_id: lllyasviel/control_v11p_sd15_openpose
-   recommended: false
+recommended: true
+      default: true
 sd-1/controlnet/scribble:
    repo_id: lllyasviel/control_v11p_sd15_scribble
    recommended: false
