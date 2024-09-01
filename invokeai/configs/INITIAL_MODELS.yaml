@@ -74,7 +74,7 @@ sd-1/main/waifu-diffusion:
    recommended: False
 sd-1/controlnet/canny:
    repo_id: lllyasviel/control_v11p_sd15_canny
-   recommended: True
+   recommended: False
 sd-1/controlnet/inpaint:
    repo_id: lllyasviel/control_v11p_sd15_inpaint
    recommended: True
@@ -83,7 +83,7 @@ sd-1/controlnet/mlsd:
    recommended: False
 sd-1/controlnet/depth:
    repo_id: lllyasviel/control_v11f1p_sd15_depth
-   recommended: True
+   recommended: False
 sd-1/controlnet/normal_bae:
    repo_id: lllyasviel/control_v11p_sd15_normalbae
    recommended: True
