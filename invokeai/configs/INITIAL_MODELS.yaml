@@ -86,7 +86,7 @@ sd-1/controlnet/depth:
    recommended: False
 sd-1/controlnet/normal_bae:
    repo_id: lllyasviel/control_v11p_sd15_normalbae
-   recommended: True
+   recommended: False
 sd-1/controlnet/seg:
    repo_id: lllyasviel/control_v11p_sd15_seg
    recommended: False
@@ -104,7 +104,7 @@ sd-1/controlnet/scribble:
    recommended: False
 sd-1/controlnet/softedge:
    repo_id: lllyasviel/control_v11p_sd15_softedge
-   recommended: True
+   recommended: False
 sd-1/controlnet/shuffle:
    repo_id: lllyasviel/control_v11e_sd15_shuffle
    recommended: False
