@@ -3,7 +3,7 @@
 sd-1/main/stable-diffusion-RV5:
    description: Stable Diffusion rversion 1.5 diffusers model (4.27 GB)
    repo_id: SG161222/Realistic_Vision_V5.1_noVAE
-   recommended: True
+   recommended: False
    default: False
    
    
@@ -77,7 +77,7 @@ sd-1/controlnet/canny:
    recommended: False
 sd-1/controlnet/inpaint:
    repo_id: lllyasviel/control_v11p_sd15_inpaint
-   recommended: True
+   recommended: False
 sd-1/controlnet/mlsd:
    repo_id: lllyasviel/control_v11p_sd15_mlsd
    recommended: False
@@ -98,7 +98,7 @@ sd-1/controlnet/lineart_anime:
    recommended: False
 sd-1/controlnet/openpose:
    repo_id: lllyasviel/control_v11p_sd15_openpose
-   recommended: True
+   recommended: False
 sd-1/controlnet/scribble:
    repo_id: lllyasviel/control_v11p_sd15_scribble
    recommended: False
