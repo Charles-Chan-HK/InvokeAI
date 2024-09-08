@@ -27,7 +27,7 @@ InvokeAI:
     use_memory_db: false
   Logging:
     log_handlers:
-    - file=/db/invokeai.log
+    - file=invokeai.log
     log_format: color
     log_level: critical
   Development:
